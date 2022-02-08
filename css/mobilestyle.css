@@ -1,0 +1,149 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    background-color: rgb(245, 249, 252);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav {
+    padding: auto auto;
+} 
+
+header {
+    height: 250px;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    border-bottom: 8px solid rgb(230, 233, 237);
+    padding: 70px 0 0 50px;
+}
+
+a.menu {
+    display: none;
+}
+
+a.nav--title {
+    text-decoration: none;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(48,70,89);
+    font-weight: bold;
+    margin: 50px auto 0 140px;
+}
+
+header button {
+    float: left;
+    margin: 40px 50px 50px 50px;
+}
+
+main section p {
+    color: rgb(48,70,89);
+    margin: 50px auto 60px 50px;
+    font-size: 35px;
+    font-size: 50px;
+}
+
+.tag {
+    color:silver;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 60px;
+}
+
+h1 {
+    color: rgb(48,70,89);
+    font-size: 100px;
+    margin: 50px 50px;
+}
+
+h2 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 80px;
+    color: rgb(48,70,89);
+    font-weight: bold;
+    margin: auto;
+}
+
+.colinfo {
+    display: none;
+}
+
+main input, main button {
+    margin: 20px 50px;
+    height: 120px;
+    width: 90%;
+    align-self: center;
+    text-align: center;
+    vertical-align: auto;
+    background: rgb(225, 233, 240);
+}
+
+.inputfirst {
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: grey;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+
+main button {
+    color: white;
+    background: rgb(48,70,89);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.features {
+    display: none;
+}
+
+.main--para {
+    font-weight: 400;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 1000px;
+    height: 800px;
+    margin-bottom: 200px;;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
